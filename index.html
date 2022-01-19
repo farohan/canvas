@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas Demo</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        canvas {
+            height: 90%;
+            width: 90%;
+            border: 3px solid grey;
+            border-radius: 7px;
+        }
+
+        #save-progress {
+            margin: 1rem;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="playground"></canvas>
+    <button id="save-progress">Save Progress</button>
+    
+    <script src="app.js"></script>
+</body>
+</html>
